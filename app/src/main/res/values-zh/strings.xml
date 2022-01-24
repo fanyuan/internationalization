@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">国际化</string>
+    <string name="tv_text">这是一个测试</string>
+    <string name="switch_cn">切换为中文</string>
+    <string name="switch_en">切换为英文文</string>
+</resources>

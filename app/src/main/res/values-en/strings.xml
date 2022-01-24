@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">internationalization</string>
+    <string name="tv_text">this is test</string>
+    <string name="switch_cn">switch to chinese</string>
+    <string name="switch_en">switch to english</string>
+</resources>
