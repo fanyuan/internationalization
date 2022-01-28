@@ -2,6 +2,6 @@
 <resources>
     <string name="app_name">internationalization</string>
     <string name="tv_text">this is test</string>
-    <string name="switch_cn">switch to chinese</string>
-    <string name="switch_en">switch to english</string>
+    <string name="switch_cn">switch to Chinese</string>
+    <string name="switch_en">switch to English</string>
 </resources>
