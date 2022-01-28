@@ -34,7 +34,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="切换为英文"
+            android:text="@string/switch_en"
             android:textStyle="bold"
             android:onClick="english"/>
     </androidx.appcompat.widget.LinearLayoutCompat>
