@@ -17,6 +17,9 @@ import java.util.*
 class MainActivity : AppCompatActivity() {
     companion object{
         const val TAG = "MainActivity"
+
+        const val ZH_SIMPLE = "zh_simple"
+        const val EN = "en"
     }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -40,8 +43,8 @@ class MainActivity : AppCompatActivity() {
         super.recreate()
         Log.d(TAG,"MainActivity recreate")
     }
-    fun chinese(view: View) {switchLanguage("zh_simple")}
-    fun english(view: View) {switchLanguage("en")}
+    fun chinese(view: View) {switchLanguage(ZH_SIMPLE)}//"zh_simple"
+    fun english(view: View) {switchLanguage(EN)}//"en"
 
     /**
      * 切换语言
@@ -54,9 +57,9 @@ class MainActivity : AppCompatActivity() {
         val resources: Resources = resources
         val config: Configuration = resources.getConfiguration()
         val dm: DisplayMetrics = resources.getDisplayMetrics()
-        if (language == "zh_simple") {
+        if (language == ZH_SIMPLE) {//"zh_simple"
             config.locale = Locale.SIMPLIFIED_CHINESE
-        } else if (language == "en") {
+        } else if (language == EN) {//"en"
             config.locale = Locale.ENGLISH
         } else {
             config.locale = Locale.getDefault()
