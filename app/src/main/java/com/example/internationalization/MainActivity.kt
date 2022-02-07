@@ -43,6 +43,10 @@ class MainActivity : AppCompatActivity() {
         super.recreate()
         Log.d(TAG,"MainActivity recreate")
     }
+
+    /**
+     * 切换为中文环境
+     */
     fun chinese(view: View) {switchLanguage(ZH_SIMPLE)}//"zh_simple"
     fun english(view: View) {switchLanguage(EN)}//"en"
 
