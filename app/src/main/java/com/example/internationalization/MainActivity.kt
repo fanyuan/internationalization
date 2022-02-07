@@ -48,6 +48,9 @@ class MainActivity : AppCompatActivity() {
      * 切换为中文环境
      */
     fun chinese(view: View) {switchLanguage(ZH_SIMPLE)}//"zh_simple"
+    /**
+     * 切换为英文环境
+     */
     fun english(view: View) {switchLanguage(EN)}//"en"
 
     /**
